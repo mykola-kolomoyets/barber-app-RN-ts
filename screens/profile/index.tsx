@@ -1,4 +1,4 @@
-import { FC, useState } from 'react';
+import { FC, useState, useEffect } from 'react';
 import {
   Animated,
   TouchableOpacity,
@@ -47,7 +47,6 @@ import {
 } from './profile.constants';
 
 import styles from './profile.styles';
-import { useEffect } from 'react';
 
 const ProfileScreen: FC<StackScreen<Screens.profile>> = ({ navigation }) => {
   const [isLiked, setIsLiked] = useState(false);
