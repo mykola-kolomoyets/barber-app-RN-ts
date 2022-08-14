@@ -35,11 +35,11 @@ export default StyleSheet.create({
     alignItems: 'center'
   },
 
-  step__completed__number: {
+  step__completed_number: {
     backgroundColor: Colors.gold
   },
 
-  step__active__number: {},
+  step__active_number: {},
 
   step__separators: {
     paddingHorizontal: 20,

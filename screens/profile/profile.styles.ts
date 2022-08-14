@@ -89,7 +89,7 @@ export default StyleSheet.create({
     alignItems: 'center'
   },
 
-  profile__location__title: {
+  profile__location_title: {
     marginTop: 4,
     marginBottom: 10
   },

@@ -17,8 +17,8 @@ const ProgressSteps: FC<ProgressStepsProps> = ({ steps, activeStep }) => (
           <View
             style={[
               styles.step__number,
-              index < activeStep && styles.step__completed__number,
-              index === activeStep && styles.step__active__number
+              index < activeStep && styles.step__completed_number,
+              index === activeStep && styles.step__active_number
             ]}
           >
             <Paragraph

@@ -6,6 +6,7 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
+
   image: {
     width: 160,
     height: 100

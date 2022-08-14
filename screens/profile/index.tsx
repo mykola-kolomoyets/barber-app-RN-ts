@@ -228,7 +228,7 @@ const ProfileScreen: FC<StackScreen<Screens.profile>> = ({ navigation }) => {
               </Paragraph>
             </View>
 
-            <Title style={styles.profile__location__title} view="small">
+            <Title style={styles.profile__location_title} view="small">
               A Cut Above
             </Title>
 

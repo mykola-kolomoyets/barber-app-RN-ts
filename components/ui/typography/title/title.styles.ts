@@ -29,7 +29,7 @@ export default StyleSheet.create({
     fontSize: 16
   },
 
-  title_centered: {
+  title__centered: {
     textAlign: 'center'
   }
 });

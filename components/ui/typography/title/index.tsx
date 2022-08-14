@@ -24,7 +24,7 @@ const Title: FC<TitleProps> = ({ children, color, style, view, centered }) => {
       styles.title,
       styles[`title__view_${view || 'large'}`],
       ...(color === 'white' ? [styles.title_white] : []),
-      ...(centered ? [styles.title_centered] : [])
+      ...(centered ? [styles.title__centered] : [])
     ];
   }, [fontsLoaded, view, color]);
 

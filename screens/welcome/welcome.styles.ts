@@ -26,7 +26,6 @@ export default StyleSheet.create({
 
   content__text: {
     width: width * 0.8
-    // marginBottom: 55
   },
 
   content__title: {
