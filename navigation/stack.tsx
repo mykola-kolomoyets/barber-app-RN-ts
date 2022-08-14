@@ -43,13 +43,13 @@ const StackNavigator: FC = () => {
       ...initialScreenProps[Screens.welcome]
     },
     [Screens.businessInfo]: {
-      ...initialScreenProps[Screens.welcome]
+      ...initialScreenProps[Screens.businessInfo]
     },
     [Screens.onboarding]: {
-      ...initialScreenProps[Screens.welcome]
+      ...initialScreenProps[Screens.onboarding]
     },
     [Screens.profile]: ({ navigation }) => ({
-      ...initialScreenProps[Screens.welcome],
+      ...initialScreenProps[Screens.profile],
       headerShown: true,
       headerTransparent: true,
       headerBackVisible: false,
@@ -63,10 +63,10 @@ const StackNavigator: FC = () => {
       )
     }),
     [Screens.selectTime]: {
-      ...initialScreenProps[Screens.welcome]
+      ...initialScreenProps[Screens.selectTime]
     },
     [Screens.signUp]: {
-      ...initialScreenProps[Screens.welcome]
+      ...initialScreenProps[Screens.signUp]
     }
   };
 
